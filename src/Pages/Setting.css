@@ -1,0 +1,177 @@
+/* Setting.css */
+
+.settings-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .user-card {
+    background: linear-gradient(135deg, #6251cd, #6e5594);
+    color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    max-height: 250px;
+    min-height: 250px;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  }
+  
+  .user-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  .user-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #f1f1f1;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .user-details h3 {
+    color: #96260a;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .email_font {
+    font-size: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background: linear-gradient(45deg, #4c9aff, #3f5efb);
+    transform: translateY(-5px);
+  }
+  
+  
+  
+  .post-card, .album-card {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h5, .album-card h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* model */
+  
+  .custom-modal-header {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .custom-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .custom-modal-body {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .user-details p {
+    font-size: 1.1rem; 
+    margin-bottom: 10px;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .post-section, .album-section {
+    margin-top: 30px;
+  }
+  
+  .post-card, .album-card {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .post-card h5, .album-card h5 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .custom-modal-footer {
+    background-color: #f8f9fa;
+    justify-content: center;
+    /* padding: 20px; */
+  }
+  
+  
